@@ -1,7 +1,7 @@
 {
     // 你的OpenAI API Key，一般必填，
     // 若缺省填为 "openai_api_key": "" 则必须再在图形界面中填入API Key
-    "openai_api_key": "",
+    "openai_api_key": "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",
     "google_palm_api_key": "",
     "xmchat_api_key": "",
     "usage_limit": 120, // API Key的当月限额，单位：美元
@@ -9,7 +9,8 @@
     // MiniMax的APIKey（见账户管理页面 https://api.minimax.chat/basic-information）和Group ID，用于MiniMax对话模型
     "minimax_api_key": "",
     "minimax_group_id": "",
-    "language": "auto",
+    "language": "zh_CN",
+    //用于设置Space的语言，默认为英语。设置为 zh_CN 以显示中文，ja_JP 以显示日文，en_US 以显示英语。
     // 支持自定义OpenAI API Base
     // "openai_api_base": "https://api.openai.com",
     // 如果使用代理，请取消注释下面的两行，并替换代理URL
@@ -17,7 +18,7 @@
     // "http_proxy": "http://127.0.0.1:1079",
     // 是否默认渲染LaTeX
     "render_latex": true,
-    "users": [], // 用户列表，[[用户名1, 密码1], [用户名2, 密码2], ...]
+    "users": [rock,1230..], // 用户列表，[[用户名1, 密码1], [用户名2, 密码2], ...]
     "local_embedding": false, //是否在本地编制索引
     "hide_history_when_not_logged_in": false, //未登录情况下是否不展示对话历史
     "default_model": "gpt-3.5-turbo", // 默认模型
